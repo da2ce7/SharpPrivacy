@@ -1,0 +1,82 @@
+<Project name="SharpPrivacyLib" standardNamespace="NewProject" description="" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\SecretKeyRing.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\PublicKeyRing.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\UserIDPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Armor.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\AsymSessionKeyPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\CipherHelper.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\CompressedDataPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\EnumerationTypes.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\LiteralDataPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\OnePassSignaturePacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Packet.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\PublicKeyPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Radix64.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\SecretKeyPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\SignaturePacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\SignatureSubPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\String2KeySpecifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\SymmetricallyEncryptedDataPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\SymSessionKeyPacket.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\TransportableSecretKey.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\CertifiedPublicSubkey.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\CertifiedUserID.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\CompressedMessage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\EncryptedMessage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\ESKSequence.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\LiteralMessage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\Message.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\SignedMessage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\OpenPGP\Messages\TransportablePublicKey.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\AsymmetricCipher.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\CAST5.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\CAST5CryptoServiceProvider.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\CipherMode.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\CryptoTools.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\DES.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\DESCryptoServiceProvider.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\DSA.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\ElGamal.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\ICryptoTransform.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\KeySizes.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\PaddingMode.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Rijndael.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\RijndaelManaged.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\RSA.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\SymmetricAlgorithm.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\TripleDES.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\TripleDESCryptoServiceProvider.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Math\BigInteger.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Math\Prime\ConfidenceFactor.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Math\Prime\PrimalityTests.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Math\Prime\Generator\NextPrimeFinder.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Math\Prime\Generator\PrimeGeneratorBase.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\Math\Prime\Generator\SequentialSearchPrimeGeneratorBase.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Cipher\CVS\Base\BigInteger.cs" subtype="Code" buildaction="Exclude" dependson="" data="" />
+    <File name=".\SharpPrivacyLibrary.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+  </Contents>
+  <References>
+    <Reference type="Assembly" refto=".\ICSharpCode.SharpZipLib.dll" localcopy="True" />
+    <Reference type="Assembly" refto=".\ldapKeyFinder.dll" localcopy="True" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="" warninglevel="4" nowarn="" includedebuginformation="True" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+    <Execution commandlineparameters="" consolepause="False" />
+    <Output directory=".\" assembly="SharpPrivacyLib" executeScript="" executeBeforeBuild="" executeAfterBuild="" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="" warninglevel="4" nowarn="" includedebuginformation="True" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="False" />
+      <Output directory=".\" assembly="SharpPrivacyLib" executeScript="" executeBeforeBuild="" executeAfterBuild="" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="" warninglevel="4" nowarn="" includedebuginformation="True" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="False" />
+      <Output directory=".\" assembly="SharpPrivacyLib" executeScript="" executeBeforeBuild="" executeAfterBuild="" />
+    </Configuration>
+  </Configurations>
+</Project>

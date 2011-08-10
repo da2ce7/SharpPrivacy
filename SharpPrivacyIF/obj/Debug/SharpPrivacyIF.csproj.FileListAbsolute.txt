@@ -1,0 +1,5 @@
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\sharpprivacy\SharpPrivacyIF\bin\Debug\ClassLibrary.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\sharpprivacy\SharpPrivacyIF\bin\Debug\ClassLibrary.pdb
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\sharpprivacy\SharpPrivacyIF\obj\Debug\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\sharpprivacy\SharpPrivacyIF\obj\Debug\ClassLibrary.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\sharpprivacy\SharpPrivacyIF\obj\Debug\ClassLibrary.pdb

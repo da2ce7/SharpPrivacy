@@ -1,0 +1,7 @@
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\bin\Debug\SharpPrivacyLib.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\bin\Debug\SharpPrivacyLib.pdb
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\bin\Debug\ldapKeyFinder.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\obj\Debug\SharpPrivacyLib.dll
+D:\Cameron Garnham\Documents\Visual Studio 2010\Projects\SharpPrivacy\SharpPrivacyLib\obj\Debug\SharpPrivacyLib.pdb

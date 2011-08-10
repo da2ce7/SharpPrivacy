@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8F4DE90-2E6D-458F-B390-3998FAF6A422}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>SharpPrivacyLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SharpPrivacy.SharpPrivacyLib</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.5.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ldapKeyFinder, Version=1.0.1519.15234, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ldapKeyFinder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Cipher\AsymmetricCipher.cs" />
+    <Compile Include="Cipher\CAST5.cs" />
+    <Compile Include="Cipher\CAST5CryptoServiceProvider.cs" />
+    <Compile Include="Cipher\CipherMode.cs" />
+    <Compile Include="Cipher\CryptoTools.cs" />
+    <Compile Include="Cipher\DES.cs" />
+    <Compile Include="Cipher\DESCryptoServiceProvider.cs" />
+    <Compile Include="Cipher\DSA.cs" />
+    <Compile Include="Cipher\ElGamal.cs" />
+    <Compile Include="Cipher\ICryptoTransform.cs" />
+    <Compile Include="Cipher\KeySizes.cs" />
+    <Compile Include="Cipher\Math\BigInteger.cs" />
+    <Compile Include="Cipher\Math\Prime\ConfidenceFactor.cs" />
+    <Compile Include="Cipher\Math\Prime\Generator\NextPrimeFinder.cs" />
+    <Compile Include="Cipher\Math\Prime\Generator\PrimeGeneratorBase.cs" />
+    <Compile Include="Cipher\Math\Prime\Generator\SequentialSearchPrimeGeneratorBase.cs" />
+    <Compile Include="Cipher\Math\Prime\PrimalityTests.cs" />
+    <Compile Include="Cipher\PaddingMode.cs" />
+    <Compile Include="Cipher\Rijndael.cs" />
+    <Compile Include="Cipher\RijndaelManaged.cs" />
+    <Compile Include="Cipher\RSA.cs" />
+    <Compile Include="Cipher\SymmetricAlgorithm.cs" />
+    <Compile Include="Cipher\TripleDES.cs" />
+    <Compile Include="Cipher\TripleDESCryptoServiceProvider.cs" />
+    <Compile Include="OpenPGP\Armor.cs" />
+    <Compile Include="OpenPGP\AsymSessionKeyPacket.cs" />
+    <Compile Include="OpenPGP\CipherHelper.cs" />
+    <Compile Include="OpenPGP\CompressedDataPacket.cs" />
+    <Compile Include="OpenPGP\EnumerationTypes.cs" />
+    <Compile Include="OpenPGP\LiteralDataPacket.cs" />
+    <Compile Include="OpenPGP\Messages\CertifiedPublicSubkey.cs" />
+    <Compile Include="OpenPGP\Messages\CertifiedUserID.cs" />
+    <Compile Include="OpenPGP\Messages\CompressedMessage.cs" />
+    <Compile Include="OpenPGP\Messages\EncryptedMessage.cs" />
+    <Compile Include="OpenPGP\Messages\ESKSequence.cs" />
+    <Compile Include="OpenPGP\Messages\LiteralMessage.cs" />
+    <Compile Include="OpenPGP\Messages\Message.cs" />
+    <Compile Include="OpenPGP\Messages\SignedMessage.cs" />
+    <Compile Include="OpenPGP\Messages\TransportablePublicKey.cs" />
+    <Compile Include="OpenPGP\Messages\TransportableSecretKey.cs" />
+    <Compile Include="OpenPGP\OnePassSignaturePacket.cs" />
+    <Compile Include="OpenPGP\Packet.cs" />
+    <Compile Include="OpenPGP\PublicKeyPacket.cs" />
+    <Compile Include="OpenPGP\Radix64.cs" />
+    <Compile Include="OpenPGP\SecretKeyPacket.cs" />
+    <Compile Include="OpenPGP\SignaturePacket.cs" />
+    <Compile Include="OpenPGP\SignatureSubPacket.cs" />
+    <Compile Include="OpenPGP\String2KeySpecifier.cs" />
+    <Compile Include="OpenPGP\SymmetricallyEncryptedDataPacket.cs" />
+    <Compile Include="OpenPGP\SymSessionKeyPacket.cs" />
+    <Compile Include="OpenPGP\UserIDPacket.cs" />
+    <Compile Include="PublicKeyRing.cs" />
+    <Compile Include="SecretKeyRing.cs" />
+    <Compile Include="SharpPrivacyLibrary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICSharpCode.SharpZipLib.dll" />
+    <Content Include="ldapKeyFinder.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SharpPrivacyLib.ndoc" />
+    <None Include="SharpPrivacyLib.prjx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
